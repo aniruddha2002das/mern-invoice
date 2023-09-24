@@ -1,0 +1,36 @@
+{
+  "name": "mern-invoice",
+  "version": "1.0.0",
+  "description": "An invoicing web app built with the MERN Stack",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniruddha2002das/mern-invoice.git"
+  },
+  "keywords": [
+    "MERN,Invoice"
+  ],
+  "author": "Aniruddha Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniruddha2002das/mern-invoice/issues"
+  },
+  "homepage": "https://github.com/aniruddha2002das/mern-invoice#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^7.5.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
