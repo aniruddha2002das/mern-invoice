@@ -7,6 +7,7 @@ import mongoSanitize from "express-mongo-sanitize";
 import { morganMiddleware, systemLogs } from "./utils/Logger.js";
 import connectionToDB from "./config/connectDB.js";
 import { errorHandler, notFound } from "./middleware/errorMiddleware.js";
+import authRoutes from "./routes/authRoutes.js";
 
 await connectionToDB();
 const app = express();
@@ -27,6 +28,8 @@ app.get("/api/v1/test", function (req, res) {
     Hi: "Welcome to the Invoice App",
   });
 });
+
+app.use('/api/v1/auth', authRoutes);
 
 app.use(notFound);
 app.use(errorHandler);

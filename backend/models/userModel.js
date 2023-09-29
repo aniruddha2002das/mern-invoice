@@ -74,11 +74,11 @@ const userSchema = new Schema(
         businessName: String,
         phoneNumber: {
             type: String,
-            default: "+911234567890",
-            validate: [
-                validator.isMobilePhone,
-                "Your mobile phone number must begin with a '+', followed by your  country code then actual number e.g +911234567890",
-            ],
+			default: "+254123456789",
+			validate: [
+				validator.isMobilePhone,
+				"Your mobile phone number must begin with a '+', followed by your  country code then actual number e.g +914123456789",
+			],
         },
         address: String,
         city: String,
