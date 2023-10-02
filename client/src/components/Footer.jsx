@@ -5,11 +5,11 @@ import { FaMoneyBillWave } from "react-icons/fa";
 function Copyright() {
     return (
         <Typography variant="body2" align="center" sx={{ color: "#ffffff" }}>
-            {"Copyright ©"}
+            {"Copyright © "}
             <Link color="inherit" href="htts://github.com/API-Imperfect">
                 MERN Invoice
             </Link>{" "}
-            {new Date().getFullYear()} {"."}
+            {new Date().getFullYear()}
         </Typography>
     )
 }
