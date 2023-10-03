@@ -2,8 +2,8 @@ import { Divider, styled } from "@mui/material";
 
 const DividerStyle = styled(Divider)({
 	width: "50%",
-	marginTop: "10px",
-	marginBottom: "15px",
+	marginTop: "8px",
+	marginBottom: "6px",
 	marginLeft: "auto",
 	marginRight: "auto",
 	height: "3px",
