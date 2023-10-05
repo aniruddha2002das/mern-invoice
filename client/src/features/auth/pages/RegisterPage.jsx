@@ -56,8 +56,8 @@ const RegisterPage = () => (
 						"&:hover": {
 							bgcolor: "#CCFF996b",
 						},
-						mt: 1,
-						mb: 0.4,
+						mt: 1.2,
+						mb: 1.2,
 					}}
 				>
 					<Button
