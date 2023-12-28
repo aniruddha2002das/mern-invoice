@@ -7,7 +7,7 @@ function Copyright() {
         <Typography variant="body2" align="center" sx={{ color: "#ffffff" }}>
             {"Copyright © "}
             <Link color="inherit" href="htts://github.com/API-Imperfect">
-                MERN Invoice
+                CREATE Invoice
             </Link>{" "}
             {new Date().getFullYear()}
         </Typography>
